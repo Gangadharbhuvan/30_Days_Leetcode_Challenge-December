@@ -3,11 +3,7 @@
 
 A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
 
- 
-
 Example 1:
-
-
 Input: root = [3,9,20,null,null,15,7]
 Output: 3
 Example 2:
@@ -24,16 +20,13 @@ Input: root = [0]
 Output: 1
  
 
-Constraints:
-
+Constraints - 
 The number of nodes in the tree is in the range [0, 104].
 -100 <= Node.val <= 100
 
-
-
 '''
 
-# Definition for a binary tree node.
+# Definition for a binary tree_node
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
